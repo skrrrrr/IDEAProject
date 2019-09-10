@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.mapper.StudentMapper">
+	<!-- 查询 -->
+	<select id="studentInfo" parameterType="Integer" resultType="com.ssm.pojo.Student">
+		slect*from student
+	</select>
+	<!--查询用户在学生表里的信息-->
+	<select id="searchStudentInfoById" parameterType="Integer" resultType="com.ssm.pojo.Student">
+		select *from student
+		<where>
+			user_id = #{user_id}
+		</where>
+	</select>
+	<!--插入-->
+	<insert id="addStudent" parameterType="String">
+		insert into student (sno,name,idnumber,department,major,level,category,subject,grade,cultivate,tutor,title)
+		values (#{sno},#{name},#{idnumber},#{department},#{major},#{level},#{category},#{subject},#{grade},#{cultivate},#{tutor},#{title})
+
+	</insert>
+
+</mapper>
