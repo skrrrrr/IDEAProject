@@ -84,11 +84,11 @@
                 <form class="form-group" method="post" action="<%=path%>/toHome">
                     <div class="form-group">
                         <label for="username">用户名</label>
-                        <input id="username" name="username" class="form-control" type="text" placeholder="name">
+                        <input id="username" name="username" class="form-control" type="text" placeholder="username">
                     </div>
                     <div class="form-group">
                         <label for="pwd">密码</label>
-                        <input id="pwd" name="password" class="form-control" type="text" placeholder="email">
+                        <input id="pwd" name="password" class="form-control" type="text" placeholder="password">
                     </div>
                     <%--                            <%if (message != null) { %> --%>
                     <div class="alert alert-danger"><%--<%=message %>--%>${msg}</div>

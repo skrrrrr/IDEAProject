@@ -3,6 +3,7 @@ package com.ssm.pojo;
 public class Student {
 	private Integer stu_id;
 	private Integer user_id;
+	private Integer pid;
 	private String sno;
 	private String name;
 	private String idnumber;
@@ -15,6 +16,13 @@ public class Student {
 	private String cultivate;
 	private String tutor;
 	private String title;
+
+	public Integer getPid() {
+		return pid;
+	}
+	public void setPid(Integer pid) {
+		this.pid = pid;
+	}
 	public Integer getStu_id() {
 		return stu_id;
 	}
@@ -101,7 +109,7 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student [stu_id=" + stu_id + ", usr_id=" + user_id + ", sno=" + sno + ", name=" + name + ", idnumber="
+		return "Student [stu_id=" + stu_id + ", usr_id=" + user_id + ", pid="+ pid +", sno=" + sno + ", name=" + name + ", idnumber="
 				+ idnumber + ", department=" + department + ", major=" + major + ", level=" + level + ", category="
 				+ category + ", subject=" + subject + ", grade=" + grade + ", cultivate=" + cultivate + ", tutor="
 				+ tutor + ", title=" + title + "]";

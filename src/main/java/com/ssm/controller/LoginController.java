@@ -28,7 +28,6 @@ public class LoginController {
 		String password = user.getPassword();
 		
 		User user2 = loginService.selectUserByUsername(username);
-		//System.out.println(user2);
 		model.addAttribute("user",user2);
 		model.addAttribute("username",user2.getUsername());
 		if (user2 == null){

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ssm.mapper.PaperInfoMapper">
+    <!-- 查询 -->
+    <select id="selectAllPapers" resultType="com.ssm.pojo.Papers">
+        select *from papers
+    </select>
+    <!--根据学生id查询论文-->
+    <select id="selectPaperByUserId" parameterType="Integer" resultType="com.ssm.pojo.Papers">
+        select * from papers
+        <where>
+            stu_id = #{stu_id}
+        </where>
+    </select>
+    <!--插入-->
+    <insert id="addPaper">
+        insert into papers(pid,stu_id,title,status) values (#{pid},#{stu_id},#{title},#{status})
+    </insert>
+
+    <!--更新-->
+    <update id="acceptPaper">
+        update papers set status = 'accept'
+    </update>
+    <update id="rejectPaper">
+        update papers set status = 'reject'
+    </update>
+
+    <!--删除-->
+    <delete id="deletePaper" >
+        delete from papers
+        <where>
+            stu_id = #{stu_id}
+        </where>
+    </delete>
+</mapper>

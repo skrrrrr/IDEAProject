@@ -25,17 +25,13 @@ public class studentController {
     {
 
         Integer user_id = user.getUser_id();
-        //System.out.println("userId:"+user_id);
+
         Student student1 = studentService.searchStudentInfoById(user_id);
         User user1 = loginService.selectUserById(user_id);
 
-        String username = user1.getUsername();
-
-        System.out.println("user1:"+user1);
 
         model.addAttribute("user1",user1);
         model.addAttribute("student1",student1);
-        System.out.println(student1);
 
         return "studentInfo";
     }

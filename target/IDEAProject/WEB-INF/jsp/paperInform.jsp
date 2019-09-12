@@ -70,7 +70,7 @@
 							<b class="caret"></b>
 						</a>
 						<ul class="dropdown-menu">
-							<li ><a href="submitAbs.jsp">提交摘要</a></li>
+							<li ><a href="submitInfo.jsp">提交摘要</a></li>
 							<li><a href="submitPDF.jsp">提交论文</a></li>
 							<li class="active" ><a href="paperInform.jsp">查看论文信息</a></li>
 						</ul>

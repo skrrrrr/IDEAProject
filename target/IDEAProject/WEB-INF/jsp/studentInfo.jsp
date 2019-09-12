@@ -30,7 +30,7 @@
 		<div>
 			<ul class="nav navbar-nav navbar-left">
 				<li class="active"><a href="index.jsp">学生操作页面</a></li>
-				<li><a href="submitAbs.jsp">提交论文信息</a></li>
+				<li><a href="submitInfo?user_id=${user1.user_id}">提交论文信息</a></li>
 				<li><a href="submitPDF.jsp">提交论文</a></li>
 				<li><a href="paperInform.jsp">查看论文信息</a></li>
 			</ul>
