@@ -24,8 +24,8 @@
 		</div>
 		<div>
 			<ul class="nav navbar-nav navbar-left">
-				<li class="active"><a href="index.jsp">学生操作页面</a></li>
-				<li><a href="#">提交论文信息</a></li>
+				<li class=""><a href="index.jsp">学生操作页面</a></li>
+				<li class="active" ><a href="#">提交论文信息</a></li>
 				<li><a href="submitPDF.jsp">提交论文</a></li>
 				<li><a href="paperInform.jsp">查看论文信息</a></li>
 			</ul>

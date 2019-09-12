@@ -2,6 +2,7 @@ package com.ssm.service;
 
 import com.ssm.mapper.StudentMapper;
 import com.ssm.pojo.Student;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -11,35 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93bfbbb7-3b76-4696-ac05-57f7208820f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/SubmitInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/addPaperInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitPDF.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/SubmitInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/controller/studentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/controller/studentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Papers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Papers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/paperInform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/paperInform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/studentInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/studentInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/IDEAProject.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/controller/studentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/controller/studentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/pojo/Papers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/pojo/Papers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/pojo/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/jsp/paperInform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/jsp/paperInform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/jsp/student.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/jsp/student.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/jsp/studentInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/jsp/studentInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/IDEAProject/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/controller/studentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/controller/studentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Papers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Papers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/pojo/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/IDEAProject/WEB-INF/classes/com/ssm/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ssm/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ssm/service/StudentService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/addPaperInfoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="20">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,24 +59,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/SubmitInfoService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitPDF.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="370">
+              <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/studentInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#858#1458#0#JSP" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/Papers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="60">
+              <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="80" selection-start-line="78" selection-end-line="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SubmitInfoController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="38">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,10 +140,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -155,7 +180,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/LoginMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/LoginMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/StudentMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/profess.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/school.jsp" />
@@ -170,12 +194,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/studentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/SubmitInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/controller/addPaperInfoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/SubmitInfoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ssm/pojo/Papers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ssm/service/SubmitInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp" />
       </list>
     </option>
   </component>
@@ -218,10 +243,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="y" value="66" />
-    <option name="width" value="1170" />
-    <option name="height" value="1010" />
+    <option name="x" value="106" />
+    <option name="y" value="142" />
+    <option name="width" value="1279" />
+    <option name="height" value="880" />
   </component>
   <component name="ProjectId" id="1QUJGZ8FiteV4P6lc1MTb0qPCOo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -232,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,103 +264,11 @@
               <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IDEAProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IDEAProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -380,11 +312,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SubmitInfoService.printPaper">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8">
     <configuration name="All in IDEAProject" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="IDEAProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IDEAProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ssm.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ssm.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ssm.service.StudentService" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -555,11 +503,13 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in IDEAProject" />
-      <item itemvalue="Tomcat Server.Tomcat 8" />
       <item itemvalue="JUnit.SubmitInfoService.printPaper" />
+      <item itemvalue="JUnit.StudentService.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentService.test" />
         <item itemvalue="JUnit.SubmitInfoService.printPaper" />
       </list>
     </recent_temporary>
@@ -597,7 +547,8 @@
       <workItem from="1568207750331" duration="7530000" />
       <workItem from="1568253909741" duration="707000" />
       <workItem from="1568254651467" duration="1314000" />
-      <workItem from="1568258539334" duration="1130000" />
+      <workItem from="1568258539334" duration="1688000" />
+      <workItem from="1568263496062" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1568129921033</created>
@@ -613,16 +564,35 @@
       <option name="project" value="LOCAL" />
       <updated>1568129993528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="9.12commit">
+      <created>1568259756506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568259756506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="SubmitInfoService_printPaper - 2019.09.12 at 11h 36m 43s.xml">
       <configuration name="SubmitInfoService.printPaper" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SubmitInfoService_printPaper - 2019.09.12 at 11h 41m 28s.xml">
+      <configuration name="SubmitInfoService.printPaper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SubmitInfoService_printPaper - 2019.09.12 at 11h 41m 29s.xml">
+      <configuration name="SubmitInfoService.printPaper" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentService_test - 2019.09.12 at 11h 48m 36s.xml">
+      <configuration name="StudentService.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentService_test - 2019.09.12 at 11h 48m 54s.xml">
+      <configuration name="StudentService.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56749000" />
+    <option name="totallyTimeSpent" value="59055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,10 +604,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="598" y="53" width="936" height="808" extended-state="0" />
-    <editor active="true" />
+    <frame x="85" y="114" width="1023" height="704" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04783599" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33056995" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -647,8 +616,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.082442746" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24408284" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.052447554" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3297546" />
@@ -657,7 +626,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.2943787" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2937063" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -714,7 +683,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="9.12commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.12commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resource/database/config.properties">
@@ -832,13 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/paperInform.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/school.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -881,73 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#826#827#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/studentInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="32" column="64" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
-          <folding>
-            <element signature="e#858#1458#0#JSP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/studentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitPDF.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SubmitInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -961,31 +861,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/SubmitInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="55" column="92" selection-start-line="55" selection-start-column="92" selection-end-line="55" selection-end-column="92" />
+        <state relative-caret-position="253">
+          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/addPaperInfoController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="400">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/service/SubmitInfoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/Papers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="80">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/studentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="80" selection-start-line="78" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/SubmitInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/controller/addPaperInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitPDF.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/paperInform.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2180">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/studentInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/student.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
+          <folding>
+            <element signature="e#858#1458#0#JSP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/submitInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1000,24 +985,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/mapper/PaperInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ssm/pojo/Papers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
         </state>
       </provider>
     </entry>
