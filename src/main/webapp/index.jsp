@@ -103,6 +103,7 @@
         </div>
     </div>
 </div>
+<a href="studentByPage">分页</a>
 <%--    <%if (message != null) { %>
     <script type="text/javascript">
           $(function(){
